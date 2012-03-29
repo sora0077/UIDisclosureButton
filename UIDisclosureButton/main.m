@@ -2,8 +2,8 @@
 //  main.m
 //  UIDisclosureButton
 //
-//  Created by 達也 林 on 12/03/29.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by t_hayashi on 12/03/29.
+//  Copyright (c) 2012年 . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -13,6 +13,7 @@
 		4AB6B1601524ADAD00B3939B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB6B15E1524ADAD00B3939B /* InfoPlist.strings */; };
 		4AB6B1621524ADAD00B3939B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6B1611524ADAD00B3939B /* main.m */; };
 		4AB6B1661524ADAD00B3939B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6B1651524ADAD00B3939B /* AppDelegate.m */; };
+		4AB6B16F1524AE1600B3939B /* UIDisclosureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB6B16E1524AE1600B3939B /* UIDisclosureButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		4AB6B1551524ADAD00B3939B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AB6B1571524ADAD00B3939B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4AB6B1591524ADAD00B3939B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4AB6B15D1524ADAD00B3939B /* UIDisclosureButton-Info.plist */ = {isa = PBXFileReference; path = "UIDisclosureButton-Info.plist"; sourceTree = "<group>"; };
+		4AB6B15D1524ADAD00B3939B /* UIDisclosureButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIDisclosureButton-Info.plist"; sourceTree = "<group>"; };
 		4AB6B15F1524ADAD00B3939B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AB6B1611524ADAD00B3939B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4AB6B1631524ADAD00B3939B /* UIDisclosureButton-Prefix.pch */ = {isa = PBXFileReference; path = "UIDisclosureButton-Prefix.pch"; sourceTree = "<group>"; };
-		4AB6B1641524ADAD00B3939B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AB6B1631524ADAD00B3939B /* UIDisclosureButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDisclosureButton-Prefix.pch"; sourceTree = "<group>"; };
+		4AB6B1641524ADAD00B3939B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AB6B1651524ADAD00B3939B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AB6B16D1524AE1600B3939B /* UIDisclosureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDisclosureButton.h; sourceTree = "<group>"; };
+		4AB6B16E1524AE1600B3939B /* UIDisclosureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDisclosureButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +48,8 @@
 		4AB6B1461524ADAC00B3939B = {
 			isa = PBXGroup;
 			children = (
-				4AB6B15B1524ADAD00B3939B /* UIDisclosureButton */,
+				4AB6B16C1524ADBD00B3939B /* UIDisclosureButton */,
+				4AB6B15B1524ADAD00B3939B /* Demo */,
 				4AB6B1541524ADAD00B3939B /* Frameworks */,
 				4AB6B1521524ADAD00B3939B /* Products */,
 			);
@@ -69,13 +73,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4AB6B15B1524ADAD00B3939B /* UIDisclosureButton */ = {
+		4AB6B15B1524ADAD00B3939B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				4AB6B1641524ADAD00B3939B /* AppDelegate.h */,
 				4AB6B1651524ADAD00B3939B /* AppDelegate.m */,
 				4AB6B15C1524ADAD00B3939B /* Supporting Files */,
 			);
+			name = Demo;
 			path = UIDisclosureButton;
 			sourceTree = "<group>";
 		};
@@ -88,6 +93,15 @@
 				4AB6B1631524ADAD00B3939B /* UIDisclosureButton-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB6B16C1524ADBD00B3939B /* UIDisclosureButton */ = {
+			isa = PBXGroup;
+			children = (
+				4AB6B16D1524AE1600B3939B /* UIDisclosureButton.h */,
+				4AB6B16E1524AE1600B3939B /* UIDisclosureButton.m */,
+			);
+			name = UIDisclosureButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +167,7 @@
 			files = (
 				4AB6B1621524ADAD00B3939B /* main.m in Sources */,
 				4AB6B1661524ADAD00B3939B /* AppDelegate.m in Sources */,
+				4AB6B16F1524AE1600B3939B /* UIDisclosureButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

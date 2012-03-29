@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  UIDisclosureButton
 //
-//  Created by 達也 林 on 12/03/29.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by t_hayashi on 12/03/29.
+//  Copyright (c) 2012年 . All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "UIDisclosureButton.h"
 
 @implementation AppDelegate
 
@@ -23,6 +24,26 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+	
+	
+	UIDisclosureButton* button1 = [UIDisclosureButton buttonWithType:UIButtonTypeCustom];	// ignore buttonType
+	button1.frame = CGRectMake(80, 100, 160, 30);	// ignore height
+	[button1 setTitle:@"UIDiclosureButton" forState:UIControlStateNormal];
+	[self.window addSubview:button1];
+	
+	UIDisclosureButton* button2 = [UIDisclosureButton buttonWithType:UIButtonTypeCustom];
+	button2.frame = CGRectMake(80, 140, 160, 30);
+	[button2 setTitle:@"UIDiclosureButton" forState:UIControlStateNormal];
+	[button2 setHighlighted:YES];
+	[self.window addSubview:button2];
+	
+	UIDisclosureButton* button3 = [UIDisclosureButton buttonWithType:UIButtonTypeCustom];
+	button3.frame = CGRectMake(80, 180, 160, 30);
+	[button3 setTitle:@"UIDiclosureButton" forState:UIControlStateNormal];
+	[button3 setEnabled:NO];
+	[self.window addSubview:button3];
+	
+	
     [self.window makeKeyAndVisible];
     return YES;
 }
