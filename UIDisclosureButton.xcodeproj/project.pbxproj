@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1584C7152B1A080061A82A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A1584C6152B1A080061A82A /* README.md */; };
 		4AB6B1561524ADAD00B3939B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6B1551524ADAD00B3939B /* UIKit.framework */; };
 		4AB6B1581524ADAD00B3939B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6B1571524ADAD00B3939B /* Foundation.framework */; };
 		4AB6B15A1524ADAD00B3939B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6B1591524ADAD00B3939B /* CoreGraphics.framework */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1584C6152B1A080061A82A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		4AB6B1511524ADAD00B3939B /* UIDisclosureButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDisclosureButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB6B1551524ADAD00B3939B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AB6B1571524ADAD00B3939B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +102,7 @@
 			children = (
 				4AB6B16D1524AE1600B3939B /* UIDisclosureButton.h */,
 				4AB6B16E1524AE1600B3939B /* UIDisclosureButton.m */,
+				4A1584C6152B1A080061A82A /* README.md */,
 			);
 			name = UIDisclosureButton;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB6B1601524ADAD00B3939B /* InfoPlist.strings in Resources */,
+				4A1584C7152B1A080061A82A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +275,7 @@
 				4AB6B16B1524ADAD00B3939B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
